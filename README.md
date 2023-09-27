@@ -6,5 +6,3 @@ Cara install :
 - buka code di vscode
 - ketik perintah composer install di terminal vscode
 - ketik perintah npm install
-
--
