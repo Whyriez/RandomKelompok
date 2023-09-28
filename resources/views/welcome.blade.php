@@ -53,7 +53,7 @@
                         <a href="#"
                             class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
                     </li>
-                    <p>sdsdsd</p>
+
                 </ul>
             </div>
         </div>
@@ -62,13 +62,29 @@
     {{-- container --}}
     <div class="px-36 mt-[20px]">
 
-        <a href="#"
-            class="block max-w-sm pointer-events-none h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Result</h5>
-            <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
-                tes
-            </div>
-        </a>
+        <div class="grid grid-cols-3 gap-4">
+            <a href="#"
+                class="block max-w-sm pointer-events-none h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Result</h5>
+                <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
+                    tes
+                </div>
+            </a>
+            <a href="#"
+                class="block max-w-sm pointer-events-none h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Controller</h5>
+                <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
+                    tes
+                </div>
+            </a>
+            <a href="#"
+                class="block max-w-sm pointer-events-none h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Inputs</h5>
+                <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
+                    tes
+                </div>
+            </a>
+        </div>
 
 
 
