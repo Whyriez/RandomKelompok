@@ -63,22 +63,22 @@
     <div class="px-36 mt-[20px]">
 
         <div class="grid grid-cols-3 gap-4">
-            <a href="#"
-                class="block max-w-sm pointer-events-none h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+            <div href="#"
+                class="block max-w-sm h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Result</h5>
                 <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
                     tes
                 </div>
-            </a>
+            </div>
             <a href="#"
-                class="block max-w-sm pointer-events-none h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+                class="block max-w-sm h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Controller</h5>
                 <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
                     tes
                 </div>
             </a>
             <a href="#"
-                class="block max-w-sm pointer-events-none h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+                class="block max-w-sm h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Inputs</h5>
                 <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
                     tes
