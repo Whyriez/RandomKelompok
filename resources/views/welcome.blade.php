@@ -64,22 +64,22 @@
 
         <div class="grid grid-cols-3 gap-4">
             <div
-                class="block max-w-sm pointer-events-none h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+                class="block max-w-sm h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Result</h5>
-                <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
-                    <input type="text" placeholder="Input" class="w-4/5 rounded-md">
-                    <button class="h-5 bg-white text-black p-5"><i></i> </button>
+                <div class="bg-black rounded-lg shadow text-black dark:text-white m-4 dark:bg-gray-800">
+                    <input type="number" placeholder="Input" class="w-4/5 rounded-md text-black dark:text-black">
+                    <button class="h-5 bg-white text-black dark:text-white p-5"><i></i> </button>
                 </div>
             </div>
             <div
-                class="block max-w-sm pointer-events-none h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+                class="block max-w-sm h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Controller</h5>
                 <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
                     tes
                 </div>
             </div>
             <div
-                class="block max-w-sm pointer-events-none h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+                class="block max-w-sm h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Inputs</h5>
                 <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
                     tes
