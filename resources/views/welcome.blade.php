@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="dark">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <meta charset="utf-8">
@@ -58,32 +58,45 @@
             </div>
         </div>
     </nav>
+    <div class="2xl:px-36 px-4 mt-[20px] md:flex sm:flex sm:justify-center">
 
-    {{-- container --}}
-    <div class="px-36 mt-[20px]">
-
-        <div class="grid grid-cols-3 gap-4">
-            <div
-                class="block max-w-sm h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Result</h5>
-                <div class="bg-black rounded-lg shadow text-black dark:text-white m-4 dark:bg-gray-800">
-                    <input type="number" placeholder="Input" class="w-4/5 rounded-md text-black dark:text-black">
-                    <button class="h-5 bg-white text-black dark:text-white p-5"><i></i> </button>
-                </div>
-            </div>
-            <div
+        <div class="md:block lg:flex sm:block space-x-6">
+            <a href="#"
+                class="block w-[30rem] h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Inputs</h5>
+                <input type="text" id="visitors"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="" required>
+            </a>
+            <a href="#"
                 class="block max-w-sm h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Controller</h5>
-                <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
-                    tes
+                <div class="flex items-center">
+                    <h3 class="mr-8">Total Anggota :</h3>
+                    <input type="number" id="visitors"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-16 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="" required>
+                    <h3 class="ml-1">/6</h3>
                 </div>
-            </div>
-            <div
-                class="block max-w-sm h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Inputs</h5>
-                <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
-                    tes
+                <div class="flex items-center mt-4">
+                    <h3 class="mr-">Nomor Kelompok :</h3>
+                    <input type="number" id="visitors"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-16 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="" required>
+                    <h3 class="ml-1">/6</h3>
                 </div>
+                <div class="flex items-center mt-4">
+                    <h3 class="mr-9">Max Anggota :</h3>
+                    <input type="number" id="visitors"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-16 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="" required>
+                    <h3 class="ml-1">/6</h3>
+                </div>
+            </a>
+            <a href="#"
+                class="block w-[30rem] h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Results</h5>
+
                 <div class="grid sm:grid-cols-2">
                     <div class="border-2 rounded  border-gray-300 m-2">
                         <h1 class="bg-gray-300 pl-3"> Team 1</h1>
@@ -109,12 +122,9 @@
 
 
                 </div>
-            </div>
+
+            </a>
         </div>
-
-
-
-    </div>
 
 
 </body>
