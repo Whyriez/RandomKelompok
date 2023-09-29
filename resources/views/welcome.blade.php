@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="dark">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Laravel</title>
+    <link rel="icon" type="images/x-icon" href="{{ asset('Frame 3.jpg') }}">
+    <title>Randomize Team</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 </head>
 
 <body>
-
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    {{-- Navbar --}}
+    <nav class="dark:bg-slate-800 border-gray-200">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="https://flowbite.com/" class="flex items-center">
-                <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Random
-                    Kelompok</span>
+            <a href="" class="flex items-center">
+                <img src="{{ asset('Frame 3.jpg') }}" class="h-8 mr-3" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Randomize
+                    Team</span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button"
                 class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -31,7 +31,7 @@
             </button>
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul
-                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100  bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800  dark:border-gray-700">
                     <li>
                         <a href="#"
                             class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
@@ -63,28 +63,54 @@
     <div class="px-36 mt-[20px]">
 
         <div class="grid grid-cols-3 gap-4">
-            <div href="#"
-                class="block max-w-sm h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+            <a href="#"
+                class="block max-w-sm pointer-events-none h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Result</h5>
                 <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
-                    tes
+                    <input type="text" placeholder="Input" class="w-4/5 rounded-md">
+                    <button class="h-5 bg-white text-black p-5"><i></i> </button>
                 </div>
-            </div>
+            </a>
             <a href="#"
-                class="block max-w-sm h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+                class="block max-w-sm pointer-events-none h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Controller</h5>
                 <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
                     tes
                 </div>
             </a>
             <a href="#"
-                class="block max-w-sm h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+                class="block max-w-sm pointer-events-none h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Inputs</h5>
                 <div class="bg-black rounded-lg shadow text-white m-4 dark:bg-gray-800">
                     tes
                 </div>
-            </a>
+                <div class="grid sm:grid-cols-2">
+                    <div class="border-2 rounded  border-gray-300 m-2">
+                        <h1 class="bg-gray-300 pl-3"> Team 1</h1>
+                        <div class="p-3 text-white  ">
+                            <p>hilal</p>
+                            <p>jiwon</p>
+                        </div>
+                    </div>
+                    <div class="border-2 rounded  border-gray-300 m-2">
+                        <h1 class="bg-gray-300 pl-3"> Team 1</h1>
+                        <div class="p-3 text-white  ">
+                            <p>hilal</p>
+                            <p>jiwon</p>
+                        </div>
+                    </div>
+                    <div class="border-2 rounded  border-gray-300 m-2">
+                        <h1 class="bg-gray-300 pl-3"> Team 1</h1>
+                        <div class="p-3 text-white  ">
+                            <p>hilal</p>
+                            <p>jiwon</p>
+                        </div>
+                    </div>
+
+
+                </div>
         </div>
+    </div>
 
 
 
