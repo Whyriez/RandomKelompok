@@ -17,7 +17,7 @@
             <a href="" class="flex items-center">
                 <img src="{{ asset('Frame 3.jpg') }}" class="h-8 mr-3" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Randomize
-                    Team</span>
+                    Team {{ $p }}</span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button"
                 class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -61,14 +61,27 @@
     <div class="2xl:px-36 px-4 mt-[20px] md:flex sm:flex sm:justify-center">
 
         <div class="md:block lg:flex sm:block space-x-6">
-            <a href="#"
-                class="block w-[30rem] h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+            <div
+                class="block w-[30rem] h-[35rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Inputs</h5>
-                <input type="text" id="visitors"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="" required>
-            </a>
-            <a href="#"
+                <form>
+                    <label for="default-search"
+                        class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                    <div class="relative">
+                        <input type="search" id="default-search"
+                            class="block w-full p-3 pl-3 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Input Anggota" required>
+                        <button type="submit"
+                            class="text-white absolute right-2.5 bottom-1.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">+</button>
+                    </div>
+                    <hr class="w-full h-1 mx-auto my-3 bg-gray-400 border-0 rounded md:my-3 dark:bg-gray-700">
+                    <div class="bg-gray-300 dark:bg-gray-200 rounded-lg w-full py-2.5 px-4 mb-2">
+                        <p class="text-gray-900 break-words dark:text-gray-400">tes</p>
+                    </div>
+                </form>
+
+            </div>
+            <div
                 class="block max-w-sm h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Controller</h5>
                 <div class="flex items-center">
@@ -92,9 +105,9 @@
                         placeholder="" required>
                     <h3 class="ml-1">/6</h3>
                 </div>
-            </a>
-            <a href="#"
-                class="block w-[30rem] h-[25rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
+            </div>
+            <div
+                class="block w-[30rem] h-[35rem] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800  ">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Results</h5>
 
                 <div class="grid sm:grid-cols-2">
@@ -120,10 +133,9 @@
                         </div>
                     </div>
 
-
                 </div>
 
-            </a>
+            </div>
         </div>
 
 
