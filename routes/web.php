@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Controller;
+use App\Http\Controllers\Tes;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +16,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome', [Tes::class, 'index']);
 });
+// Route::get('/', [Tes::class, 'index']);
